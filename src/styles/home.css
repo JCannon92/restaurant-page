@@ -1,0 +1,72 @@
+:root {
+    --almond-silk: #CEB5A7;
+    --frosted-mint: #EAF7CF;
+    --rosy-granite: #92828D;
+    --lilac-ash: #ADAABF;
+    --shadow-grey: #2C262A;
+}
+
+@font-face {
+    font-family: 'SN Pro';
+    src: url("./fonts/SNPro-VariableFont_wght.ttf") format('tff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    height: 100vh;
+    background-color: var(--almond-silk);
+    font-family: 'SN Pro', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+nav button {
+    margin: 20px;
+    padding: 10px 20px;
+    background-color: var(--rosy-granite);
+    color: var(--shadow-grey);
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 20px;
+}
+
+#content {
+    margin: 100px 400px;
+    padding: 50px 100px;
+    border-radius: 50px;
+    background-color: var(--rosy-granite);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+    #header-container {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+        img#logo {
+            width: 70px;
+        }
+
+        h1#main-heading {
+            color: var(--shadow-grey);
+            font-size: 50px;
+            margin: 0 50px;
+        }
+    
+    #content p {
+        margin: 40px;
+        text-align: center;
+        font-size: 22px;
+    }
+
+
+
+
