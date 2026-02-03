@@ -1,0 +1,27 @@
+#content section#curry-menu {
+    padding: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#content .menu-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#content .menu-item h3 {
+    font-size: 24px;
+    font-weight: bold;
+    color: var(--shadow-grey);
+}
+
+#content .menu-item img {
+    max-width: 50%;
+}
+
+#content .menu-item p {
+    font-size: 20px;
+    color: var(--shadow-grey);
+}
