@@ -1,5 +1,4 @@
 import "../styles/home.css";
-import logoImage from "../img/logo.png";
 
 const renderHomePage = function() {
     const content = document.querySelector('div#content');

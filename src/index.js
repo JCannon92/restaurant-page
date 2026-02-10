@@ -1,5 +1,6 @@
 import renderHomePage from "./scripts/home.js";
 import renderMenuPage from "./scripts/menu.js";
+import renderAboutUsPage from "./scripts/about-us.js"
 
 
 renderHomePage();
@@ -20,4 +21,10 @@ const menuButton = document.querySelector('button#menu');
     menuButton.addEventListener('click', () => {
         clearContent();
         renderMenuPage();
-    })
+    });
+
+const aboutUsButton = document.querySelector('button#about-us');
+    aboutUsButton.addEventListener('click', () => {
+        clearContent();
+        renderAboutUsPage();
+    });
