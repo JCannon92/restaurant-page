@@ -1,6 +1,7 @@
 import renderHomePage from "./scripts/home.js";
 import renderMenuPage from "./scripts/menu.js";
 import renderAboutUsPage from "./scripts/about-us.js"
+import renderContactUsPage from "./scripts/contact-us.js"
 
 
 renderHomePage();
@@ -27,4 +28,10 @@ const aboutUsButton = document.querySelector('button#about-us');
     aboutUsButton.addEventListener('click', () => {
         clearContent();
         renderAboutUsPage();
+    });
+
+const contactUsButton = document.querySelector('button#contact-us');
+    contactUsButton.addEventListener('click', () => {
+        clearContent();
+        renderContactUsPage();
     });
